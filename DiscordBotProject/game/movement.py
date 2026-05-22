@@ -1,8 +1,5 @@
 # the main code for moving around the map
 
-from discord import app_commands
-import discord
-
 from game.player import players, create_player
 from game.movement import move_player
 
