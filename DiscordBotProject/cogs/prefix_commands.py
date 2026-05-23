@@ -17,5 +17,5 @@ def setup_commands(bot):
 
     @bot.command()
     async def revolver(ctx):
-        await ctx.reply(f"Heres a gun"
+        await ctx.reply(f"Heres a gun\n"
                        "# <:Revolver:1505709394057494659>")
