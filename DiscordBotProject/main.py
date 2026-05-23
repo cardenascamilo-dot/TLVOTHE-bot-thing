@@ -74,21 +74,5 @@ async def on_message(message):
 
     await bot.process_commands(message)
 
-@bot.command()
-async def hello(ctx):
-    await ctx.send(f"Hello {ctx.author.mention}")
-
-@bot.command()
-async def reply(ctx):
-    await ctx.reply("This is a reply. (wow)")
-
-@bot.command()
-async def cheese(ctx):
-    await ctx.send("https://tenor.com/view/crowpunk-cheese-challenge-repost-to-cheese-cat-cheese-cat-gif-4123783956472567463")
-
-@bot.tree.command(name="ping", description="Replies with pong")
-async def ping(interaction: discord.Interaction):
-    await interaction.response.send_message("Pong!")
-
 
 bot.run(token, log_handler=handler, log_level=logging.DEBUG)
