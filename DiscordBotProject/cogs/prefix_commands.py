@@ -8,5 +8,9 @@ def setup_commands(bot):
         await ctx.send("hi")
 
     @bot.command()
+    async def reply(ctx):
+        await ctx.reply("This is a reply. (wow)")
+    
+    @bot.command()
     async def cheese(ctx):
         await ctx.send("cheese")
