@@ -1,3 +1,5 @@
+# yall, i know this may look like crap, but this is my first bot so please
+
 import discord
 from discord.ext import commands
 from discord import app_commands
