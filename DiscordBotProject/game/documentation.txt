@@ -1,0 +1,135 @@
+So this is gonna be a doozy.
+
+TLVOTHE (discord), is a multiplayer, murder mystery, roleplay-based game in Discord that takes place on a moving train
+in the 1900's called "The Harpy Express".
+
+Players move between cabins, do tasks, investigate crimes, interact with other passengers, and try to survive from the murderer until the end of the voyage.
+
+This game is heavily reliant on players' attention, communication, and roleplay between each other.
+
+----- CORE GAMEPLAY -----
+
+  At the start of the game, the players are placed aboard the train, each given a key to enter their own cabin rooms and a hidden role.
+  Each cabin is represented by a Discord channel in a category of the server.
+
+  Players may:
+- Move between train cars
+- Speak with others nearby
+- Investigate rooms
+- Discover evidence
+- Witness suspicious behavior
+- Complete objectives
+- Kill other players (depending on role)
+- Hide information
+- Cooperate or deceive
+
+  The game progresses dynamically depending on player actions.
+
+----- ROOM SYSTEM -----
+
+  The train consists of connected rooms/train cars.
+
+Examples:
+- Cafeteria
+- Lounge
+- Open-air cargo cabin
+
+Players may only see the channel representing the room they are
+currently inside.
+
+When a player moves:
+- Access to the previous room is removed
+- Access to the new room is granted
+
+Players cannot scroll through previous room history, preventing
+metagaming and preserving immersion.
+
+----- MOVEMENT SYSTEM -----
+
+All movement in this game is directional (except for the Murderer)
+  This means everyone can move to the front or the back (the murderer can go up above the train, giving access to any room) unless the target isn't available (locked doors, end of the train, locked cabins, etc.).
+
+Movement is handled through the /move command.
+
+----- ROLES -----
+
+There are 3 main roles in TLVOTHE:
+  - Murderer
+    - The main class that kills, wins if every Passenger and Vigilante is dead, can have killer cohorts.
+    - Has access to an item shop for killing items. (More info in the server, or may be added later here as a separate txt file)
+  - Vigilante
+    - Protect yourself and all the passengers with your might, has a Revolver,
+    - Kill all the murderers with eyewitnesses and evidence.
+  - Passenger
+    - Survive, while doing your own personal objectives.
+    - Help the Vigilante decipher who the murderer is.
+
+1-2 sub-roles per main role are planned to get added later on.
+
+----- SOUND SYSTEM ----
+
+Loud sounds generate directional sound alerts, depending on the player's location.
+These can be:
+  
+  - Gunshots
+  - Screams
+  - The train's horn
+  - Explosions
+  etc.
+
+When any of these happen, the player gets a vague, directional notifications. Such as;
+
+  "You hear a gunshot coming from the front of the train"
+
+----- EVIDENCE SYSTEM -----
+    
+All sorts of crimes leave evidence behind.
+Examples:
+
+  - Blood
+  - Poison stains / bottles
+  - Shell casisngs
+  - Fingerprints
+    etc.
+
+That tie back to who did the crime, evidence is intentionally imperfect.
+
+----- CORPSES ----
+
+When someone dies, they leave behind a corpse, they do not serve as evidence, but show who died and how.
+After roughly a day, these bodies start to decompose, and finish decomposing after 12 hours, leaving behind a unrecognizable skeleton.
+
+----- ITEM SYSTEM ----
+
+The players can aquire and use items for all sorts of things, every player has their own inventory
+and have to use the /holdout command to take something from the inventory and use it, showing plainly the tiem they're holding.
+Some items require a special condition to be used; sometimes needing a target player or being in a
+specific room to work.
+
+----- MOOD SYSTEM -----
+
+alr vro imma be honest this has bambozleed me for a while now, i cant think on a punishment for when you dont
+do your tasks, consider this as wip for now
+
+----- CURRENT DEVELOPMENT -----
+
+Current implemented/planned systems:
+[ ] Full room movement
+[ ] Channel visibility system
+[ ] Role assignment
+[ ] Evidence system
+[ ] Sound propagation
+[ ] Corpse system
+[ ] Inventory system
+[ ] Mood system (scary)
+[ ] Match flow system
+[ ] Administrative tools
+[ ] Expanded train map
+
+----- NOTE -----
+  
+This project is currently in active development.
+
+Game systems, balance, roles, mechanics, and structure may
+change over time.
+  
