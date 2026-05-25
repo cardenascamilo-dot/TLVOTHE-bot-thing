@@ -115,6 +115,8 @@ do your tasks, consider this as wip for now
 
 ----- CURRENT DEVELOPMENT -----
 
+Focusing on: Github Structure
+
 Current implemented/planned systems:
 [ ] Full room movement
 [ ] Channel visibility system
