@@ -7,7 +7,6 @@ class MessageCommands(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self, message):
 
-        # Ignore bot messages
         if message.author == self.bot.user:
             return
 
@@ -15,5 +14,5 @@ class MessageCommands(commands.Cog):
 
         await self.bot.process_commands(message)
 
-async def setup(bot):
-    await bot.add_cog(MessageCommands(bot))
+def setup_commands(bot):
+    bot.add_cog(MessageCommands(bot))
