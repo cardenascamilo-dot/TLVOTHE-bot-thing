@@ -2,9 +2,8 @@ from discord import app_commands
 import discord
 
 from game.player import players, create_player
-
-ADMIN_ROLE_ID = 1443308083475386370 # "Announcer" role
-GAME_ROLE_ID = 1441798643576471773 # "Passenger" role
+from utils.constants import ADMIN_ROLE_ID
+from utils.constants import GAME_ROLE_ID
 
 
 def setup_commands(bot):
