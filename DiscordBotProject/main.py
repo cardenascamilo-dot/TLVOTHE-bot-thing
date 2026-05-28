@@ -23,7 +23,6 @@ from cogs.prefix_commands import setup_commands as setup_prefix_commands
 from cogs.game_commands import setup_commands as setup_game_commands
 from cogs.message_commands import setup_commands as setup_message_events
 
-setup_message_events(bot)
 setup_slash_commands(bot)
 setup_prefix_commands(bot)
 setup_game_commands(bot)
@@ -43,6 +42,8 @@ async def on_ready():
         status=discord.Status.online,
         activity=discord.Game("Poisoning the food...")
     )
+
+    await setup_message_events(bot)
 
 @bot.event
 async def on_guild_join(guild):
