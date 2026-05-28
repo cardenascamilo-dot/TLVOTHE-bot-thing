@@ -66,7 +66,7 @@ def setup_commands(bot):
         )
 
     @bot.command()
-    async def add(ctx, user_id=None):
+    async def addprefix(ctx, user_id=None):
 
         ADMIN_ROLE_ID = 1443308083475386370
         GAME_ROLE_ID = 1441798643576471773
